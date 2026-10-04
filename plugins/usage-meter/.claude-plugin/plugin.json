@@ -1,0 +1,16 @@
+{
+  "name": "usage-meter",
+  "version": "0.1.0",
+  "author": { "name": "Gabriel Campillo" },
+  "description": "Plan usage under the prompt: 5-hour, weekly and Fable limits with reset times, plus prompt-cache expiry",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtl": {
+      "type": "string",
+      "title": "Prompt-cache TTL",
+      "description": "How long the prompt cache lives after each response (1h on subscription plans, 5m on the API default)",
+      "options": ["1h", "5m"],
+      "default": "1h"
+    }
+  }
+}

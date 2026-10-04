@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+# Written by the engine / `/plugin-types`; regenerate rather than commit.
+.claude/types/
+plugins/*/.claude-plugin/types/
+plugins/*/tsconfig.json

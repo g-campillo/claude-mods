@@ -1,0 +1,12 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "Gabriel Campillo" },
+  "metadata": { "description": "Personal Claude Code mods (function-hook plugins)" },
+  "plugins": [
+    {
+      "name": "usage-meter",
+      "source": "./plugins/usage-meter",
+      "description": "Plan usage under the prompt: 5-hour, weekly and Fable limits with reset times, plus prompt-cache expiry"
+    }
+  ]
+}
